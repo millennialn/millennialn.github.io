@@ -407,6 +407,9 @@ body{
         min-height: min-content;
         min-width: 10%;   
     }
+    .gallery div h1{
+        font-size: xx-large;
+    }
     #content-layout div img{
         height: 240px;
         width:100%;

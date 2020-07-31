@@ -77,6 +77,7 @@ p{
         height:0;
         z-index: 2;
         font-size: 150%;
+        color: #003459;
     }
     .nav{
         all:unset;
