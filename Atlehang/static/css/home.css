@@ -1,0 +1,156 @@
+
+h1{
+    font-size: 250%;
+}
+h2{
+     font-size: 200%;
+}
+h4{
+     font-size:100%;
+}
+body {
+    display:grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+    width: 100%;
+    padding:0;
+    margin:0;
+    background-color: #ffffff;
+    color:#003459;
+    font-family: Gudea;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:#ffffff;
+    box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+    transition: all ease-in-out 1s;
+    overflow: hidden;
+}
+
+#nav-btn-checkbox{
+    display: none;
+}
+
+#LOGO{
+    background:url(../img/logo.png);
+    height: 7rem;
+    width: 10rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 2rem;
+    margin-top: 0.5rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding:0;
+    margin-right: 0;
+    margin-left: auto;
+}
+.menu a{
+    text-decoration: none;
+    margin-right: 2rem;
+    color:inherit;
+    padding: 5px;
+    border-radius: 5px;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/bg6.JPG);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding: 0;
+    z-index: 1;
+}
+
+
+.abstract{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    height:50%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    width:50%;
+    padding:2rem; 
+    text-align: center;
+    border-radius:5px;
+
+}
+.abstract div{
+    transform: translate(0,8vh);
+    transition: all ease-in-out 1s;
+}
+button{
+    background-color:#007EA7;
+    border-radius: 10px;
+    border-style: none;
+    font-size: 150%;
+    color:#ffffff;
+    height:4rem;
+    width: 15rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    background: #003459;
+    height:80px;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    color:#ffffff;
+    z-index: 0;
+}
+
+
+
+@media only screen and (max-width: 720px){
+     body {
+        margin: 0px;
+        width: 100%;
+     }
+    .home{
+        height:100%;
+        text-align: center;
+        background: url(../img/bg6.JPG);
+        background-position: top;
+        background-size: cover;
+        z-index: 1;
+        transform: none;
+    }   
+    .abstract{
+        all:unset;
+        background: rgba(0,0,0,0.4);
+        height: 100%;
+        padding: 5%;
+    }
+    button{
+        font-size: large;
+        margin-bottom: 1rem;
+    }
+    .footer{
+        font-size: small;
+        height: 80px;
+        position: relative;
+        bottom: 0;
+        width: 100%;
+        z-index: 1;
+    }
+}
