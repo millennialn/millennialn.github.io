@@ -5,6 +5,13 @@
 * Browsers: last 4 version
 */
 
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 body{
     display: -ms-grid;
     display: grid;
@@ -111,9 +118,16 @@ body{
     padding: 4%;
     max-width: 350px;
     min-height: 400px;
-    box-shadow: 0 2px 2px 2px #00528C;
-    transform: translate(98%,0);
+    -webkit-box-shadow: 0 2px 2px 2px #00528C;
+            box-shadow: 0 2px 2px 2px #00528C;
+    -webkit-transform: translate(98%,0);
+        -ms-transform: translate(98%,0);
+            transform: translate(98%,0);
+    -webkit-transition: -webkit-transform ease-in-out 0.8s;
+    transition: -webkit-transform ease-in-out 0.8s;
+    -o-transition: transform ease-in-out 0.8s;
     transition: transform ease-in-out 0.8s;
+    transition: transform ease-in-out 0.8s, -webkit-transform ease-in-out 0.8s;
 }
 
 
@@ -159,6 +173,8 @@ body{
             flex-direction: column;
     margin: 0;
     padding:0;
+    -webkit-transition: all ease-in-out 2s;
+    -o-transition: all ease-in-out 2s;
     transition: all ease-in-out 2s;
 }
 
@@ -177,8 +193,13 @@ body{
     padding: 4%;
     max-width: 350px;
     min-height: 400px;
-    box-shadow: 0 2px 2px 2px #00528C;
+    -webkit-box-shadow: 0 2px 2px 2px #00528C;
+            box-shadow: 0 2px 2px 2px #00528C;
+    -webkit-transition: -webkit-transform ease-in-out 2s;
+    transition: -webkit-transform ease-in-out 2s;
+    -o-transition: transform ease-in-out 2s;
     transition: transform ease-in-out 2s;
+    transition: transform ease-in-out 2s, -webkit-transform ease-in-out 2s;
 }
 
 #medium-content-div > *:nth-child(1){
@@ -231,9 +252,16 @@ body{
     padding: 4%;
     max-width: 350px;
     min-height: 400px;
-    box-shadow: 0 2px 2px 2px #00528C;
-    transform: translate(-108%,0);
+    -webkit-box-shadow: 0 2px 2px 2px #00528C;
+            box-shadow: 0 2px 2px 2px #00528C;
+    -webkit-transform: translate(-108%,0);
+        -ms-transform: translate(-108%,0);
+            transform: translate(-108%,0);
+    -webkit-transition: -webkit-transform ease-in-out 1s;
+    transition: -webkit-transform ease-in-out 1s;
+    -o-transition: transform ease-in-out 1s;
     transition: transform ease-in-out 1s;
+    transition: transform ease-in-out 1s, -webkit-transform ease-in-out 1s;
 }
 
 
@@ -282,11 +310,20 @@ body{
     display: none;
 }
 .footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     background: #003459;
     color:white;
@@ -346,6 +383,8 @@ body{
     grid-template-rows: -webkit-min-content;
     grid-template-rows: min-content;
     width:100%;
+    -webkit-transition: all ease-in-out 0.5s;
+    -o-transition: all ease-in-out 0.5s;
     transition: all ease-in-out 0.5s;
 }
 
