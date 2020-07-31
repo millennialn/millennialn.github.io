@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta name="viewport" content="width=width-device , initial-scale=1">
+    <link rel='stylesheet' href='static/css/nav.css'>
+    <link rel='stylesheet' href="static/css/contact_us.css">
+</head>
+<body>
+    <div class='nav'>
+       </div>
+    
+   <div class='contact-us'>
+        <div class='title'><h1>Contact Us</h1>
+            <div>
+                <button onclick="redirect()">Home</button>
+                <button onclick="showForm()">Req Call</button>
+            </div>
+        </div>
+        <div class='contact-info'>
+            <p> <b>Koos Makhetha</b><br>
+                Position: Founder<br>
+                Email: koos@altehangmonumentals.com<br>
+                Cell no: 071 803 6213
+            </p>
+            <p> <b>Moeketsi Makgetha</b><br>
+                Position: Manager<br>
+                Email: moeketsi@altehangmonumentals.com<br>
+                Cell no: 078 830 2700
+            </p>
+            <p> <b>Dineo Moea</b><br>
+                Position: Marketing Manager<br>
+                Email: marketing@altehangmonumentals.com<br>
+                Cell no: 067 296 3403
+            </p>
+        </div>
+    </div>
+    <div class='req-call' id='req-call'>
+        <div><h1>Request a Call</h1></div>
+        <label id='back-btn-container' onclick="hideForm()"><span id='back-btn'></span></label>
+        <div>
+        <form >
+            <div>
+                <label>Name: </label>
+                <input name='name' id='name' type="text">
+            </div>
+            <div>
+                <label>Cell No: </label>
+                <input name='cellno' id='cellno' type="text">
+            </div>
+            <div>
+                <input name='submit-btn' id='submit-btn' type='submit' value="Request">
+            </div>
+        </form>
+        </div>
+    </div>
+    <div class="footer">
+        <h3>ATLEHANG MONUMENTALS</h3>
+        <p>Address: 69-70, Industrial Park, Zone 10 Street, Sebokeng, Vereeniging, 1983</p>
+    </div>    
+    <script src='static/js/jquery.min.js'></script>
+    <script src='static/js/contact-us.js'></script>
+</body>
+</html>

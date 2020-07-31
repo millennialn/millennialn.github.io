@@ -2,7 +2,6 @@ var SCREEN_HEIGHT = window.innerHeight || document.documentElement.clientHeight;
 var SCREEN_WIDTH = window.innerWidth || document.documentElement.clientWidth;
 $(document).ready(
     function (){
-        $('.abstract').css({'color':'#ffffff'});
         homeSetHeight();
         animateHome();
     }

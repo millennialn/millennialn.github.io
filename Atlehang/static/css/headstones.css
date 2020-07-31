@@ -282,20 +282,22 @@ body{
     display: none;
 }
 .footer{
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
     position: relative;
     background: #003459;
     color:white;
     padding: 0;
+    padding-left: 1%;
+    padding-right: 1%;
     margin-top: 2rem;
+}
+
+.footer p{
+    font-size: small;
 }
 
 #content-head {
