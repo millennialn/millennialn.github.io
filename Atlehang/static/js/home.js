@@ -37,7 +37,7 @@ function scale_nav(){
             $('#nav-btn-container').css({'position':'fixed',
             'top':'1rem'});
             $('#nav-btn').css({'background-color':'white'});
-        
+            
         }
 
         else{

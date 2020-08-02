@@ -288,7 +288,9 @@ form input{
         margin: 2%;
         margin-top: 5%;
     }
-
+    .contact-info p{
+        text-decoration: none;
+    }
     .req-call{
         all:unset;
         display: none;
