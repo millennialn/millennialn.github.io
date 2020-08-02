@@ -153,11 +153,15 @@ body{
 
 #starter-logo{
     border:none;
-    background: url(../img/icon-1.svg);
-    background-size: contain;
+    background: url(../img/Start/starter15.JPG);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
     height: 100%;
     width: 33%;
+    border-radius: 5%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.4);
+
     -ms-grid-column-align: center;
         justify-self: center;
 }
@@ -219,11 +223,14 @@ body{
 
 #medium-logo{
     border:none;
-    background: url(../img/icon-2.svg);
-    background-size: contain;
+    background: url(../img/Medium/medium15.JPG);
+    background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     height: 100%;
     width: 33%;
+    border-radius: 5%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.4);
     
     -ms-grid-column-align: center;
     
@@ -284,9 +291,12 @@ body{
 
 #premium-logo{
     border:none;
-    background: url(../img/icon-3.svg);
-    background-size: contain;
+    background: url(../img/Premium/premium15.JPG);
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
+    border-radius: 5%;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.4);
     height: 100%;
     width: 33%;
 

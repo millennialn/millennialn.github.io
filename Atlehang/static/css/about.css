@@ -17,6 +17,7 @@ body{
     padding:0;
     color:#003459;
 }
+
 .nav{
     margin: 0;
     padding:0;
@@ -28,8 +29,8 @@ body{
         -ms-flex-direction: row;
             flex-direction: row;
     height:100%;
-    
 }
+
 #LOGO{
     background:url(../img/logo.png);
     height: 3rem;
@@ -72,6 +73,7 @@ body{
     margin:0;
     padding:0;
     height: 100%;
+
 }
 .about-us > *:nth-child(1){
     -ms-grid-row: 1;
@@ -155,7 +157,7 @@ body{
         -ms-flex-align: center;
             align-items: center;
     height: 100%;
-    width: 100%;
+    width: 98%;
     padding-left: 1%;
     padding-right: 1%;
     color:white;
@@ -167,7 +169,9 @@ body{
     font-size: small;
 }
 @media (max-width:700px){
-
+    #details-div{
+        padding:5%;
+    }
     .about-us{
         display:-webkit-box;
         display:-ms-flexbox;
