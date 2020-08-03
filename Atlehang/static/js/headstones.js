@@ -67,7 +67,7 @@ function premium_set_gallery(){
 
 function show_starter(){
     for(i = 1; i <= 26; i++){
-    $('.starter-items').append('<div id="starter'+ i + '" onclick="enlarge(this)"><img src="static/img/Start/starter'+  i +'.JPG"><div></div></div>');
+    $('.starter-items').append('<div onclick="enlarge(this)"><img src="static/img/Start/starter'+  i +'.JPG"><div></div></div>');
     }
 }
 
@@ -76,7 +76,7 @@ function show_starter(){
 //adds in the images to html tags
 function show_medium(){
     for(i = 1; i <= 26; i++){
-    $('.medium-items').append('<div><img src="static/img/Medium/medium'+  i +'.JPG"><div></div></div>');
+    $('.medium-items').append('<div onclick="enlarge(this)"><img src="static/img/Medium/medium'+  i +'.JPG"><div></div></div>');
     }
 }
 
@@ -101,7 +101,7 @@ function enlarge(elm){
     enlarge_enable = true;
     //reset_size();
     $('#back-btn').remove();
-    $('#content-head').append('<button onclick="shinkSize()" id="back-btn">BACK</button>');
+    $('.content-head').append('<button onclick="shinkSize()" id="back-btn">BACK</button>');
  
     var screen_width = window.innerWidth || document.documentElement.clientWidth;
     if(screen_width > 860){
@@ -145,7 +145,7 @@ function showImg(){
         $('#content-layout div img').css({'height':'240px','width':'100%'});
     }
     $('#back-btn').remove();
-    $('#content-head').append('<button onclick="back_gallery()" id="back-btn">BACK</button>');
+    $('.content-head').append('<button onclick="back_gallery()" id="back-btn">BACK</button>');
  
 }
 
