@@ -42,6 +42,25 @@ body{
     padding: 0;
 }
 
+#abstract-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+#huge-logo{
+    background:url(../img/logo.SVG);
+    height: 58vh;
+    width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
 #nav-btn-checkbox{
     display: none;
 }
@@ -120,7 +139,8 @@ body{
         -ms-flex-pack: center;
             justify-content: center;
     padding: 2%;
-    background: #003459;
+    background: url(../img/bg7.png);
+    background-size: cover;
     color: white;
     -webkit-transform: translate(-50%,0);
         -ms-transform: translate(-50%,0);
@@ -129,16 +149,11 @@ body{
     -o-transition: all ease-in-out 2s;
     transition: all ease-in-out 2s;
 }
-.about-us div:last-child:hover{
-    background: white;
-    color: #003459;
-}
 .about-us h1{
         -ms-flex-item-align: center;
             -ms-grid-row-align: center;
             align-self: center;
 }
-
 .footer{
     margin-top:5vh;
     padding:0;
@@ -208,5 +223,8 @@ body{
     }
     #title-div h1{
         font-size: xx-large;
+    }
+    #abstract-logo{
+        display: none;
     }
 }

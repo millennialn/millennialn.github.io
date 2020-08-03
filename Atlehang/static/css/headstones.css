@@ -36,7 +36,7 @@ body{
 
 }
 #LOGO{
-    background:url(../img/logo.png);
+    background:url(../img/logo.SVG);
     height: 3rem;
     width: 5rem;
     background-size: contain;

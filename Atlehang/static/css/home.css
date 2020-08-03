@@ -67,13 +67,30 @@ body > *:nth-child(3) {
 }
 
 #LOGO{
-    background:url(../img/logo.png);
-    height: 7rem;
-    width: 10rem;
+   /* background:url(../img/logo.SVG);*/
+    height: 3rem;
+    width: 4rem;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
     margin-top: 0.5rem;
+}
+#abstract-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+#huge-logo{
+    background:url(../img/logod.SVG);
+    height: 58vh;
+    width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .menu {
@@ -136,7 +153,7 @@ body > *:nth-child(3) {
             justify-content: center;
     color: #ffffff;
     height:50%;
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-bottom: 3rem;
     width:50%;
     padding:2rem; 
@@ -199,6 +216,24 @@ button{
         width: 100%;
         color: #ffffff;
      }
+/*
+     #huge-logo{
+        height:100%;
+        width: 100%;
+        background-size: cover;
+    }
+  */  
+  #abstract-logo{
+    display: none;
+    }
+
+  #LOGO{
+        height: 7rem;
+        width: 10rem;
+        background: url(../img/logo.png);
+        background-size: contain;
+    }
+
     .home{
         height:100%;
         text-align: center;

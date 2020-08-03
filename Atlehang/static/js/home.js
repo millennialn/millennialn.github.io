@@ -46,6 +46,7 @@ function scale_nav(){
 
         $('#nav-btn').css({'background-color':'#003459'});
         }
+        
     }
     else{
         
@@ -58,10 +59,10 @@ function scale_nav(){
             $('#LOGO').css({'height':'4rem'});
         }   
         else if(document.documentElement.scrollTop == 0){
-            $(".nav").css({'height':'8rem','position':'relative','z-index':'1',
+            $(".nav").css({'height':'4rem','position':'relative','z-index':'1',
             'background':'white','color':'#003459',
             'box-shadow':'box-shadow: 0px 4px 4px 0px rgba(0,0,0,0.4)'});
-            $('#LOGO').css({'height':'8rem'});
+            $('#LOGO').css({'height':'4rem'});
         
         }
     }

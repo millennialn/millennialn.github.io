@@ -41,6 +41,24 @@ body{
 
 }
 
+#abstract-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-self: center;
+    padding: 0;
+    margin: 0;
+}
+
+#huge-logo{
+    background:url(../img/logo.SVG);
+    height: 58vh;
+    width: 30vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .contact-us{
     display: -ms-grid;
     display: grid;
@@ -51,7 +69,9 @@ body{
     margin-bottom: 5vh;
     margin-top: 1%;
 }
-
+.contact-us p{
+    width: 60%;
+}
 .contact-us > *:nth-child(1){
     -ms-grid-row: 1;
     -ms-grid-column: 1;
@@ -313,4 +333,7 @@ form input{
         height:-moz-max-content;
         height:max-content; 
     }    
+    #abstract-logo{
+        display: none;
+    }
 }
