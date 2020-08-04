@@ -346,11 +346,26 @@ form input{
         height:-webkit-max-content;
         height:-moz-max-content;
         height:max-content; 
-    }  
-    #huge-logo{
-        background:url(../img/logo.SVG);
+    } 
+    .title{
+        justify-content: center;
+        align-items: center;
+    } 
+    #abstract-logo{
+
+        display: flex;
+        flex-direction: row;
         height: 28vh;
-        width: 30vw;
+        width:40%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #huge-logo{
+        
+        background:url(../img/logo.SVG);
+        height: 100%;
+        width: 100%;
         background-size: contain;
         background-repeat: no-repeat;
     }     
