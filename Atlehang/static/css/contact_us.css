@@ -346,8 +346,15 @@ form input{
         height:-webkit-max-content;
         height:-moz-max-content;
         height:max-content; 
-    }    
-    #abstract-logo{
-        display: none;
+    }  
+    #huge-logo{
+        background:url(../img/logo.SVG);
+        height: 28vh;
+        width: 30vw;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }     
+    .contact-us p{
+        width: 80%;
     }
 }
