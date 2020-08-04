@@ -131,7 +131,7 @@ function hideImg(){
 
 function showImg(){
     var screen_width = window.innerWidth || document.documentElement.clientWidth;
-    if(screen_width > 860){
+    if(screen_width > 800){
     $('.content-layout').css({'display':'grid','align-items':'auto','justify-content':'auto'});
     $('.content-layout div').css({'display':'flex','height':'450px','min-width':'300px'});
     $(tempElem).css({'display':'flex','min-height':'450px','min-width':'300px','width':'90%'});

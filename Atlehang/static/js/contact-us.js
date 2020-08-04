@@ -30,7 +30,7 @@ function hideForm(){
 function setFormHeight(){
     var screen_height = window.innerHeight || document.documentElement.clientHeight;
     var screen_width = window.innderWidth || document.documentElement.clientWidth;
-    if(screen_width < 720){
+    if(screen_width < 800){
         $('req-call').css({'height':screen_height});
     }
 }

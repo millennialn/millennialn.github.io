@@ -37,8 +37,8 @@ body{
 }
 #LOGO{
     background:url(../img/logo.SVG);
-    height: 3rem;
-    width: 5rem;
+    height: 7rem;
+    width: 10rem;
     background-size: contain;
     background-repeat: no-repeat;
     margin-left: 1%;
@@ -443,6 +443,14 @@ body{
 
 
 @media only screen and (max-width:800px){
+
+  #LOGO{
+    height: 7rem;
+    width: 10rem;
+    background: url(../img/logo.SVG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
     .content-layout div{
         display: -webkit-box;
         display: -ms-flexbox;

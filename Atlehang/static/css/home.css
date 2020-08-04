@@ -230,8 +230,9 @@ button{
   #LOGO{
         height: 7rem;
         width: 10rem;
-        background: url(../img/logo.png);
+        background: url(../img/logo.SVG);
         background-size: contain;
+        background-repeat: no-repeat;
     }
 
     .home{

@@ -32,7 +32,6 @@ body{
 }
 
 #LOGO{
-    background:url(../img/logo.png);
     height: 3rem;
     width: 5rem;
     background-size: contain;
@@ -184,6 +183,14 @@ body{
     font-size: small;
 }
 @media (max-width:700px){
+
+  #LOGO{
+    height: 7rem;
+    width: 10rem;
+    background: url(../img/logo.SVG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
     #details-div{
         padding:5%;
     }

@@ -19,7 +19,7 @@ window.addEventListener('scroll',function (){
 
 
 function isMobile(){
-    if(SCREEN_WIDTH < 720){
+    if(SCREEN_WIDTH < 800){
         return true;
     }
     else{
@@ -72,7 +72,7 @@ function scale_nav(){
 function homeSetHeight(){
     var screen_Height = window.innerHeight || document.documentElement.clientHeight;
     var screen_width = window.innerWidth || document.documentElement.clientWidth;
-        if(screen_width > 720){
+        if(screen_width > 800){
         $('.home').css({'min-height':0.9*screen_Height});
         }
         else{
